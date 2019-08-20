@@ -1,0 +1,50 @@
+.mt-page-5 {
+    margin-top: 2rem !important;
+}
+
+.step-content {
+    margin-left: 0rem !important;
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+.words-align {
+    display: inline;
+}
+
+.words-align h4 {
+    display: inline-block;
+    align-items: end;
+    flex: 1;
+    flex-direction: row;
+    position: relative;
+    width: fit-content;
+    margin-right: 4.5px;
+}
+
+h4.font {
+    font-weight: 500;
+    color: #4e4a4a;
+    font-size: 1.3rem;
+}
+
+.wrong {
+    color: red;
+    text-decoration: underline red;
+}
+
+.correct {
+    color: #21ca21 !important;
+}
+
+.correct-text{
+    color:#f3e423
+}
+
+.list-width {
+    max-width: 340px;
+}
